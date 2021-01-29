@@ -2,5 +2,5 @@
 
 ### Níveis ###
 
-* [Pleno](https://arantesperformait@bitbucket.org/arantesperformait/front-angular/bankito/PLENO.md)
-* [Sênior](https://arantesperformait@bitbucket.org/arantesperformait/front-angular/bankito/SENIOR.md)
+* [Pleno](https://bitbucket.org/arantesperformait/front-angular/src/master/bankito/PLENO.MD)
+* [Sênior](https://bitbucket.org/arantesperformait/front-angular/src/master/bankito/SENIOR.MD)
