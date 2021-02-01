@@ -70,3 +70,7 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 Acesse o link da documentação da api para saber como instalar e realizar as integrações.
 
 [Link API]()
+
+## Dúvidas ou erros
+
+Se encontrar erros ou tiver dúvidas não deixem de entrar em contato,comunique quem lhe enviou o desafio.
