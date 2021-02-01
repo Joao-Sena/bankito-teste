@@ -45,7 +45,7 @@ A baixo também segue algumas explicações a cerca de cada implementação para
       * Pode realizar uma nova transferência
       * Consultar o extrato das transações
       * Filtrar o extrato com as seguintes opções
-        * Tudo (opção default)
+        * Desde o início (opção default)
         * Este mês
         * 3 Meses
         * 1 Ano
