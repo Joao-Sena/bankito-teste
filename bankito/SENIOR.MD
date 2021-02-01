@@ -37,24 +37,24 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 1. Tela de Splash screen (Extra)
 2. Tela de Start screen (Extra)
 3. Tela de Login
-   * Informa CPF e SENHA para realizar o login
-   * CPF e SENHA da conta de testes será informada na documentação da API
-   * Texto "Não consigo acessar" implementação apenas do layout, não deve ser implementada nenhuma funcionalidade
+      * Informa CPF e SENHA para realizar o login
+      * CPF e SENHA da conta de testes será informada na documentação da API
+      * Texto "Não consigo acessar" implementação apenas do layout, não deve ser implementada nenhuma funcionalidade
 4. Tela da Home
-   * Usuário pode consultar seus saldos (Entradas, Saídas e saldo total)
-   * Pode realizar uma nova transferência
-   * Exibir o extrato das transações
-   * Filtrar o extrato com as seguintes opções
-      * Tudo (opção default)
-      * Este mês
-      * 3 Meses
-      * 1 Ano
-   * Sair do App e voltar Login
+      * Usuário pode consultar seus saldos (Entradas, Saídas e saldo total)
+      * Pode realizar uma nova transferência
+      * Exibir o extrato das transações
+      * Filtrar o extrato com as seguintes opções
+        * Tudo (opção default)
+        * Este mês
+        * 3 Meses
+        * 1 Ano
+      * Sair do App e voltar Login
 5. Nova transferência
-   * Usuário digita o valor da transferência
-   * Informa o número da conta
-   * Após ter os dois valores busca na api os dados utilizando o número do conta e exibe as informações de resumo
-   * Após isso realiza a transferência
+      * Usuário digita o valor da transferência
+      * Informa o número da conta
+      * Após ter os dois valores busca na api os dados utilizando o número do conta e exibe as informações de resumo
+      * Após isso realiza a transferência
 6. Animações de transição de tela (Extra)
 7. Integrar com a API
 
