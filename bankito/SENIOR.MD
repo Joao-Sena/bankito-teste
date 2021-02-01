@@ -37,24 +37,24 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 1. Tela de Splash screen (Extra)
 2. Tela de Start screen (Extra)
 3. Tela de Login
-   1. Informa CPF e SENHA para realizar o login
-   2. CPF e SENHA da conta de testes será informada na documentação da API
-   3. Texto "Não consigo acessar" implementação apenas do layout, não deve ser implementada nenhuma funcionalidade
+   * Informa CPF e SENHA para realizar o login
+   * CPF e SENHA da conta de testes será informada na documentação da API
+   * Texto "Não consigo acessar" implementação apenas do layout, não deve ser implementada nenhuma funcionalidade
 4. Tela da Home
-   1. Usuário pode consultar seus saldos (Entradas, Saídas e saldo total)
-   2. Pode realizar uma nova transferência
-   3. Exibir o extrato das transações
-   4. Filtrar o extrato com as seguintes opções
+   * Usuário pode consultar seus saldos (Entradas, Saídas e saldo total)
+   * Pode realizar uma nova transferência
+   * Exibir o extrato das transações
+   * Filtrar o extrato com as seguintes opções
       * Tudo (opção default)
       * Este mês
       * 3 Meses
       * 1 Ano
-   5. Sair do App e voltar Login
+   * Sair do App e voltar Login
 5. Nova transferência
-   1. Usuário digita o valor da transferência
-   2. Informa o número da conta
-   3. Após ter os dois valores busca na api os dados utilizando o número do conta e exibe as informações de resumo
-   4. Após isso realiza a transferência
+   * Usuário digita o valor da transferência
+   * Informa o número da conta
+   * Após ter os dois valores busca na api os dados utilizando o número do conta e exibe as informações de resumo
+   * Após isso realiza a transferência
 6. Animações de transição de tela (Extra)
 7. Integrar com a API
 
@@ -63,7 +63,7 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 * Esperamos que não seja feito o uso de nenhum tipo de framework de CSS, GRID LAYOUT, Angular Material ou Boostrap, queremos ver suas habilidades em implementar o layout da forma mais pura
 * Realizar o upload do projeto no Stack Blitz, não se esqueça de testar o projeto por lá para garantir que nada foi quebrado
 * Versionar o projeto utilizando Git e subir em alguma hospedagem de sua preferência Git Hub ou Bitbuket. Só não se esqueça de deixar o respositório público
-* Quando finalizar a implementação enviar os links de acesso Stack Blitz e repositório via email para quem lhe enviou o desafio.
+* Quando finalizar a implementação enviar os links de acesso Stack Blitz e repositório via email para quem lhe enviou o desafio
 
 # Integração com API
 
