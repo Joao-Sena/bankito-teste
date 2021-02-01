@@ -38,8 +38,7 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 2. Tela de Start screen (Extra)
 3. Tela de Login
    * Informa CPF e SENHA para realizar o login
-   * CPF e SENHA da conta de testes será informada na documentação da API
-   * Texto "Não consigo acessar" implementação apenas do layout, não deve ser implementada nenhuma funcionalidade
+  
 4. Tela da Home
    * Usuário pode consultar seus saldos (Entradas, Saídas e saldo total)
    * Pode realizar uma nova transferência
