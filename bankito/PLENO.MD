@@ -18,7 +18,7 @@ Mas para isso precisamos que você coloque em prática seus conhecimentos aprend
 
 Além do layout você deverá integrar o app com a API que já foi implementada nas primeiras sprints porque foi priorizada pelo P.O no backlog como de estrema importância.
 
-# O que será avaliado
+## O que será avaliado
 
 * Sua habilidade em contruir o layout em relação ao protótipo, respeitando posicionamentos, espaçamentos e cores dos elementos
 * Organização de CSS
@@ -28,7 +28,7 @@ Além do layout você deverá integrar o app com a API que já foi implementada 
 * Organização de pastas e módulos
 * Lazy loading
 
-# O que deve ser implementado?
+## O que deve ser implementado?
 
 Alguns itens estão marcados onde a implementação não é obrigatória e sua implementação será considerado um extra!
 
@@ -58,14 +58,14 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 6. Animações de transição de tela (Extra)
 7. Integrar com a API
 
-# Regras da implementação
+## Regras da implementação
 * O projeto deverá ser implementado utilizando a última versão disponível do Angular.
 * Esperamos que não seja feito o uso de nenhum tipo de framework de CSS, GRID LAYOUT, Angular Material ou Boostrap, queremos ver suas habilidades em implementar o layout da forma mais pura
 * Realizar o upload do projeto no Stack Blitz, não se esqueça de testar o projeto por lá para garantir que nada foi quebrado
 * Versionar o projeto utilizando Git e subir em alguma hospedagem de sua preferência Git Hub ou Bitbuket. Só não se esqueça de deixar o respositório público
 * Quando finalizar a implementação enviar os links de acesso Stack Blitz e repositório via email para quem lhe enviou o desafio
 
-# Integração com API
+## Integração com API
 
 Acesse o link da documentação da api para saber como instalar e realizar as integrações.
 
