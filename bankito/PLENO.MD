@@ -49,7 +49,7 @@ A baixo também segue algumas explicações a cerca de cada implementação para
         * Este mês
         * 3 Meses
         * 1 Ano
-      * Sair do App e voltar Login
+      * Sair do App
 5. Nova transferência
       * Usuário digita o valor da transferência
       * Informa o número da conta
