@@ -41,9 +41,9 @@ A baixo também segue algumas explicações a cerca de cada implementação para
       * CPF e SENHA da conta de testes será informada na documentação da API
       * Texto "Não consigo acessar" implementação apenas do layout, não deve ser implementada nenhuma funcionalidade
 4. Tela da Home
-      * Usuário pode consultar seus saldos (Entradas, Saídas e saldo total)
+      * Usuário pode consultar seus saldos (entradas, saídas e saldo total)
       * Pode realizar uma nova transferência
-      * Exibir o extrato das transações
+      * Consultar o extrato das transações
       * Filtrar o extrato com as seguintes opções
         * Tudo (opção default)
         * Este mês
@@ -53,8 +53,8 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 5. Nova transferência
       * Usuário digita o valor da transferência
       * Informa o número da conta
-      * Após ter os dois valores busca na api os dados utilizando o número do conta e exibe as informações de resumo
-      * Após isso realiza a transferência
+      * Após ter os dois valores busca na api os dados utilizando o número da conta e exibe as informações de resumo
+      * Após isso pode realizar a transferência
 6. Animações de transição de tela (Extra)
 7. Integrar com a API
 
