@@ -21,7 +21,7 @@ Além do layout você deverá integrar o app com a API que já foi implementada 
 * Sua habilidade em contruir o layout em relação ao protótipo, respeitando posicionamentos, espaçamentos e cores dos elementos
 * Organização de CSS
 * Organização e lógica do seu código
-* Tipagem do código (evite utilização de tipos "any" ou "unkown")
+* Tipagem do código (evite utilização de tipos "any" ou "unknown")
 * Organização e divisão de componentes
 * Organização de pastas e módulos
 * Lazy loading
@@ -30,7 +30,7 @@ Além do layout você deverá integrar o app com a API que já foi implementada 
 
 Alguns itens estão marcados onde a implementação não é obrigatória e sua implementação será considerado um extra!
 
-A baixo também segue algumas explicações a cerca de cada implementação para complementar o fluxo do protótipo.
+Abaixo também segue algumas explicações a cerca de cada implementação para complementar o fluxo do protótipo.
 
 1. Tela de Splash screen (Extra)
 2. Tela de Start screen (Extra)
@@ -58,7 +58,7 @@ A baixo também segue algumas explicações a cerca de cada implementação para
 
 ## Regras da implementação
 
-* O projeto deverá ser implementado utilizando a última versão disponível do Angular.
+* O projeto deverá ser implementado utilizando a última versão disponível do Angular
 * Esperamos que não seja feito o uso de nenhum tipo de framework de CSS, GRID LAYOUT, Angular Material ou Boostrap, queremos ver suas habilidades em implementar o layout da forma mais pura
 * Realizar o upload do projeto no Stack Blitz, não se esqueça de testar o projeto por lá para garantir que nada foi quebrado
 * Versionar o projeto utilizando Git e subir em alguma hospedagem de sua preferência Git Hub ou Bitbuket. Só não se esqueça de deixar o respositório público
@@ -77,4 +77,4 @@ Acesse o link da documentação da api para saber como instalar e realizar as in
 
 ## Dúvidas ou erros
 
-Se encontrar erros ou tiver dúvidas não deixem de entrar em contato, comunique quem lhe enviou o desafio.
+Se encontrar erros ou tiver dúvidas não deixe de entrar em contato, comunique quem lhe enviou o desafio.
