@@ -1,7 +1,8 @@
 # Teste Frontend Angular Performa
 
 - Para a realização deste teste criamos uma API mocada.
-- Os detalhes do funcionamento estão no diretório backend-mock.
+- Os detalhes do funcionamento estão no diretório src/backend-mock.
+- Você deve clonar esse repositório e utilizar o projeto angular-base para conseguir utilizar a api mockada.
 - Logs das requests mocadas são exibidos no console.
 
 - Endereço Base da Api: http://bankito.com.br
