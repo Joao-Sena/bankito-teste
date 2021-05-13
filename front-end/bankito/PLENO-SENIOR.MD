@@ -45,8 +45,6 @@ Abaixo também segue algumas explicações a cerca de cada implementação para 
       * Filtrar o extrato com as seguintes opções
         * Desde o início (opção default)
         * Este mês
-        * 3 Meses
-        * 1 Ano
       * Sair do App
 5. Nova transferência
       * Usuário digita o valor da transferência
@@ -59,7 +57,7 @@ Abaixo também segue algumas explicações a cerca de cada implementação para 
 ## Regras da implementação
 
 * O projeto deverá ser implementado utilizando a última versão disponível do Angular
-* Esperamos que não seja feito o uso de nenhum tipo de framework de CSS, GRID LAYOUT, Angular Material ou Boostrap, queremos ver suas habilidades em implementar o layout da forma mais pura
+* Esperamos que não seja feito o uso de nenhum tipo de framework de CSS, GRID de terceiro, Angular Material ou Boostrap, queremos ver suas habilidades em implementar o layout da forma mais pura
 * Realizar o upload do projeto no Stack Blitz, não se esqueça de testar o projeto por lá para garantir que nada foi quebrado
 * Versionar o projeto utilizando Git e subir em alguma hospedagem de sua preferência Git Hub ou Bitbuket. Só não se esqueça de deixar o respositório público
 * Quando finalizar a implementação enviar os links de acesso Stack Blitz e repositório via email para quem lhe enviou o desafio
@@ -73,7 +71,7 @@ O protótipo foi criado no Figma, se você nunca utilizou, basta apenas criar um
 
 Acesse o link da documentação da api para saber como instalar e realizar as integrações.
 
-[Link API]()
+[Link API](https://bitbucket.org/performait/teste-front-end/src/master/front-end/bankito/angular-base/README.md)
 
 ## Dúvidas ou erros
 
