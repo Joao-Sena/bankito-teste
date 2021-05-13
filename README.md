@@ -1,15 +1,15 @@
 # DESAFIOS - PERFORMA IT #
 
-# DESAFIOS FRONT-END #
+## DESAFIOS FRONT-END #
 
-## Níveis
+### Níveis
 
 * [Pleno](https://bitbucket.org/performait/teste-front-end/src/master/front-end/bankito/PLENO-SENIOR.MD)
 * [Sênior](https://bitbucket.org/performait/teste-front-end/src/master/front-end/bankito/PLENO-SENIOR.MD)
 
-# DESAFIOS BACK-END #
+## DESAFIOS BACK-END #
 
-## Níveis
+### Níveis
 
 * [Pleno](https://bitbucket.org/performait/teste-front-end/src/master/back-end/github/PLENO-SENIOR.MD)
 * [Sênior](https://bitbucket.org/performait/teste-front-end/src/master/back-end/github/PLENO-SENIOR.MD)
