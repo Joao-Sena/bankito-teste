@@ -9,7 +9,7 @@
             <h4 class="titulo-detalhe">Valor</h4>
             <span class="prefixo-input"> 
                 R$ 
-                <input type="text" placeholder=" 00,00" [(ngModel)]="valorTransferencia">
+                <input type="text" placeholder=" 00,00" [(ngModel)]="valorTransferencia" (keyup)="moneyMask()">
             </span>
         </div>
 
