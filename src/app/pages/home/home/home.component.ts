@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { take } from 'rxjs/operators';
 import { Transaction } from '../../../interfaces/transaction';
 import { User } from '../../../interfaces/user';
-import { Balance } from 'src/backend-mock/bankito/models/transaction';
-import { TransactionService } from 'src/backend-mock/bankito/services/transaction.service';
+import { Balance } from '../../../interfaces/balance';
+import { TransactionService } from '../../../../backend-mock/bankito/services/transaction.service';
 
 @Component({
   selector: 'app-home',
@@ -34,14 +35,14 @@ export class HomeComponent implements OnInit {
   }
 
   getBalance() {
-    // Aqui para obter o balanço de Saldo, Entrada e saída apenas peguei o retorno, pois nesse Mock tentar consumi-lo como API
-    // dava erro dizendo que o .PIPE não pertence ao tipo BALANCE, então apenas já guardei o retorno na variável
-    // Mas claro se não eu iria consumir como uma API assim como a de LOGIN
+    // Tentei consumir como API assim como a de LOGIN mas estava dando erro desconhecido, e no Network falava erro de CORS,
+    // então mantive assim simulando o consumo da API, mas se não seria o consumo normalmente com o subscribe
     this.balance = this.transactionService.getBalance(this.user.id, this.interval);
   }
 
   getTransactions() {
-    // Apenas guardei o retorno na variável pois também não teve como simular uma requisição nessa API do Mock
+    // Tentei consumir como API assim como a de LOGIN mas estava dando erro desconhecido, e no Network falava erro de CORS,
+    // então mantive assim simulando o consumo da API, mas se não seria o consumo normalmente com o subscribe
     this.transactions = this.transactionService.getTransactionsHistoryByUser(this.user.id, this.interval);
   }
 
