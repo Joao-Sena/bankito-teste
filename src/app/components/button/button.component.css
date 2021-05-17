@@ -15,3 +15,5 @@
     border: none;
     outline: none;
 }
+
+.botao-primario:hover{ cursor: pointer; }

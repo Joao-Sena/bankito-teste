@@ -34,6 +34,7 @@
     position: absolute;
     bottom: 36px;
     right: 30px;
-    /* height: 88px; */
     width: 120px;
 }
+
+.botao-iniciar:hover { cursor: pointer; }

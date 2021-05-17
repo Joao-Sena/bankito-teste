@@ -20,6 +20,8 @@
     left: 37px;
 }
 
+.botao-voltar:hover{ cursor: pointer; }
+
 /* Seção - Detalhes transferência */
 .container-detalhes-transferencia{
     display: flex;
