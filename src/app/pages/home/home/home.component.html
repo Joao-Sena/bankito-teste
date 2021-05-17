@@ -2,7 +2,8 @@
     <img src="assets/img/botao-logout.png" class="botao-logout" alt="Botao para fazer logout"
     (click)="logout()">
     <img src="assets/img/logo-dark.png" class="logo" alt="Logo do aplicativo do banco digital Bankito">
-    <img [src]="user.photo" class="foto-usuario" alt="Sua foto de perfil">
+    <!-- No github pages quebra a imagem caso tenha o "/assets", então removi a "/" do caminho absoluto -->
+    <img [src]="user.photo.slice(1)" class="foto-usuario" alt="Sua foto de perfil">
 </header>
 
 <div class="container-informacoes">
