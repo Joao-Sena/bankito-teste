@@ -46,13 +46,20 @@
     margin-bottom: 12px;
 }
 
+.prefixo-input {
+    color: var(--secondary-color);
+    font-size: 28px;
+    font-weight: 400;
+    margin-right: 6px;
+    text-align: center;
+}
+
 input{
     font-size: 28px;
     width: 140px;
     border: none;
     outline: none;
     color: var(--secondary-color);
-    text-align: center;
 }
 
 input::placeholder{ color: var(--secondary-color); }

@@ -42,8 +42,8 @@ export class HomeComponent implements OnInit {
   }
 
   getTransactions() {
+    // Apenas guardei o retorno na variável pois também não teve como simular uma requisição nessa API do Mock
     this.transactions = this.transactionService.getTransactionsHistoryByUser(this.user.id, this.interval);
-    console.log('transacoes: ', this.transactions);
   }
 
   logout() {
