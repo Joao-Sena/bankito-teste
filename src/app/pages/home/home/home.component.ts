@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { take } from 'rxjs/operators';
-import { Transaction } from 'src/app/interfaces/transaction';
-import { User } from 'src/app/interfaces/user';
+import { Transaction } from '../../../interfaces/transaction';
+import { User } from '../../../interfaces/user';
 import { Balance } from 'src/backend-mock/bankito/models/transaction';
 import { TransactionService } from 'src/backend-mock/bankito/services/transaction.service';
 

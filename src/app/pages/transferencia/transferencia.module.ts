@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TransferenciaRoutingModule } from './transferencia-routing.module';
 
-import { SharedModule } from 'src/app/shared/shared.module';
+import { SharedModule } from '../../shared/shared.module';
 import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
 
 
