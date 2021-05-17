@@ -46,24 +46,30 @@
         </select>
     </div>
 
-    <div class="card-transferencia" *ngFor="let transaction of transactions">
-        <img *ngIf="user.account == transaction.toAccount"
-         src="assets/img/recebida.png" class="icone-extrato" alt="">
-
-         <img *ngIf="user.account != transaction.toAccount"
-         src="assets/img/enviada.png" class="icone-extrato" alt="">
-        
-        <div>
-            <div class="data-hora">
-                <p>{{dateParse(transaction.date)}}</p>
-                <p>{{hoursParse(transaction.date)}}</p>
+    <div *ngIf="transactions">
+        <div class="card-transferencia" *ngFor="let transaction of transactions">
+            <img *ngIf="user.account == transaction.toAccount"
+             src="assets/img/recebida.png" class="icone-extrato" alt="">
+    
+             <img *ngIf="user.account != transaction.toAccount"
+             src="assets/img/enviada.png" class="icone-extrato" alt="">
+            
+            <div>
+                <div class="data-hora">
+                    <p>{{dateParse(transaction.date)}}</p>
+                    <p>{{hoursParse(transaction.date)}}</p>
+                </div>
+                <h4 class="titulo-transferencia" *ngIf="user.account == transaction.toAccount">Transferência recebida</h4>
+                <h4 class="titulo-transferencia" *ngIf="user.account != transaction.toAccount">Transferência enviada</h4>
+                <p class="nome-transferencia">{{transaction.fromAccount}}</p>
+                <p class="valor-transferencia">{{transaction.value | currency: 'BRL'}}</p>
+    
             </div>
-            <h4 class="titulo-transferencia" *ngIf="user.account == transaction.toAccount">Transferência recebida</h4>
-            <h4 class="titulo-transferencia" *ngIf="user.account != transaction.toAccount">Transferência enviada</h4>
-            <p class="nome-transferencia">{{transaction.fromAccount}}</p>
-            <p class="valor-transferencia">{{transaction.value | currency: 'BRL'}}</p>
-
         </div>
+    </div>
+
+    <div class="card-transferencia text-center" *ngIf="!transactions.length">
+        <h4 class="c-primary">Este usuário ainda não possui transações</h4>
     </div>
 
 </div>
