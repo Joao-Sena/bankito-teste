@@ -42,7 +42,8 @@ export class LoginComponent implements OnInit {
 
   logIn() {
 
-    this.loginService.logIn(this.loginForm.value).pipe(take(1)).subscribe(
+    this.loginService.logIn(this.loginForm.value)
+    .pipe(take(1)).subscribe(
       (response: User) => {
 
         this.messageErrorLogin = '';
