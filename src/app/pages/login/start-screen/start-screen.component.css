@@ -1,0 +1,53 @@
+.container{
+    background-image: url('../../../../assets/img/background.png');
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: fixed;
+}
+
+.container-slogan{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translate(30px, -50%);
+    margin-top: 10px;
+}
+
+.texto-slogan{
+    color: var(--white-color);
+    margin-bottom: 34px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+}
+
+.destaque-slogan{
+    color: var(--primary-color);
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+}
+
+.botao-iniciar{
+    background-color: transparent;
+    padding: 26px 20px 12px 26px;
+    border-radius: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 14px;
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 36px;
+    right: 30px;
+    background-image: url('../../../../assets/img/botao-background.png');
+    background-size: 100% auto;
+    display: block;
+    height: 88px;
+    width: 140px;
+}

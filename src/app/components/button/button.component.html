@@ -1,0 +1,10 @@
+<button 
+[ngClass]="{
+    'botao-primario': tipoBotao === 'primario', 
+    'full-width': fullWidth === true,
+    'disabled': disabled === true
+}"
+[disabled]="disabled === true"
+>
+    {{textoBotao}}
+</button>

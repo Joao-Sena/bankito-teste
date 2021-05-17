@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; width: 100%; max-width: 100%; margin: 0; padding: 0; background-color: var(--black-color); }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*{ margin: 0; padding: 0; }
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+:root {
+    --primary-color: #FF1477;
+    --secondary-color: #FF5AA0;
+    --black-color: #202020;
+    --white-color: #fff;
+    --light-color: #F5F5F5;
+    --gray-color: #6e6e6e;
+    --success-color: #3E9B64;
+    --warning-color: #ffb71b;
+    --danger-color: #DD4959;
+}
+
+.c-primary{ color: var(--primary-color); }
+.c-secondary{ color: var(--secondary-color); }
+.c-success{ color: var(--success-color); }
+.c-danger{ color: var(--danger-color); }
+.c-white{ color: var(--white-color); }
+.c-black{ color: var(--black-color); }
+.text-center{ text-align: center; }
+.bg-primary{ background: var(--primary-color); }
+.bg-black{ background: var(--black-color); }
+.bg-white{ background: var(--white-color); }
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.text-center{ text-align: center; }
+
+.container{
+    height: 100%;
+    max-width: 100%;
+    padding: 36px 30px;
+}
+
+.botao-voltar{
+    position: absolute;
+    top: 36px;
+    padding: 30px;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.input{
+    background: var(--black-color);
+    color: var(--primary-color);
+    border: 1px solid var(--light-color);
+    border-radius: 25px;
+    padding: 8px 16px;
+    outline: none;
+    margin: 0px 0px 0px 0px;
+}

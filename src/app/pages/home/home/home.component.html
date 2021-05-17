@@ -1,0 +1,68 @@
+<header>
+    <img src="../../../../assets/img/botao-logout.png" class="botao-logout" alt="Botao para fazer logout"
+    (click)="logout()">
+    <img src="../../../../assets/img/logo-dark.png" class="logo" alt="Logo do aplicativo do banco digital Bankito">
+    <img [src]="user.photo" class="foto-usuario" alt="Sua foto de perfil">
+</header>
+
+<div class="container-informacoes">
+
+    <h5 class="titulo-saldo">Saldo</h5>
+    <p class="saldo">{{balance?.total | currency: 'BRL'}}</p>
+
+    <div class="container-entrada-saida">
+        <div>
+            <h5 class="titulo-entrada-saida">Entrada do mês</h5>
+            <p class="valor-entrada-saida">{{balance?.in | currency: 'BRL'}}</p>
+        </div>
+
+        <div> <span>/</span> </div>
+
+        <div>
+            <h5 class="titulo-entrada-saida">Saída do mês</h5>
+            <p class="valor-entrada-saida">{{balance?.out | currency: 'BRL'}}</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-transferencia">
+    <img src="../../../../assets/img/transferencia-icon.png" class="icone-transferencia" alt="">
+    <div class="margin-x">
+        <h5 class="titulo-transferencia">Transferência</h5>
+        <p class="subtitulo-transferencia">Realize transferências com PIX, TED ou DOC</p>
+    </div>
+    <div class="botao-nova" routerLink="/transferencia/nova">+</div>
+</div>
+
+<div class="container-extratos">
+
+    <div class="container-filtro">
+        <h2 class="titulo-extrato">Extrato</h2>
+        <select class="select" [(ngModel)]="interval" (change)="getAllData()">
+            <option value="all">Desde o início</option>
+            <option value="currentMonth">Este mês</option>
+        </select>
+    </div>
+
+    <div class="card-transferencia" *ngFor="let transaction of transactions">
+        <img *ngIf="user.account == transaction.toAccount"
+         src="../../../../assets/img/recebida.png" class="icone-extrato" alt="">
+
+         <img *ngIf="user.account != transaction.toAccount"
+         src="../../../../assets/img/enviada.png" class="icone-extrato" alt="">
+        
+        <div>
+            <div class="data-hora">
+                <p>{{dateParse(transaction.date)}}</p>
+                <p>{{hoursParse(transaction.date)}}</p>
+            </div>
+            <h4 class="titulo-transferencia" *ngIf="user.account == transaction.toAccount">Transferência recebida</h4>
+            <h4 class="titulo-transferencia" *ngIf="user.account != transaction.toAccount">Transferência enviada</h4>
+            <p class="nome-transferencia">{{transaction.fromAccount}}</p>
+            <p class="valor-transferencia">{{transaction.value | currency: 'BRL'}}</p>
+
+        </div>
+    </div>
+
+</div>

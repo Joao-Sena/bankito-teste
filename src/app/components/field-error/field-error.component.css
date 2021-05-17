@@ -1,0 +1,8 @@
+p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--danger-color);
+    margin: 8px 0px 0px 0px;
+    padding: 0px 0px 0px 14px;;
+    text-align: left;
+}

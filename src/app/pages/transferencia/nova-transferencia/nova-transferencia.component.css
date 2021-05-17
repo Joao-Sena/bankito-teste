@@ -1,0 +1,65 @@
+.container-light{
+    background: var(--white-color);
+    padding: 26px 36px;
+    height: 100%;
+    text-align: center;
+}
+
+.titulo{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--black-color);
+    text-align: center;
+}
+
+.botao-voltar{
+    width: 12px;
+    position: absolute;
+    top: 26px;
+    left: 37px;
+}
+
+/* Seção - Detalhes transferência */
+.container-detalhes-transferencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 62%;
+    margin: 18% 0px 19% 0px;
+    text-align: center;
+}
+
+.titulo-detalhe{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--black-color);
+    margin-bottom: 18px;
+}
+
+.dados-detalhe{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--black-color);
+    margin-bottom: 12px;
+}
+
+input{
+    font-size: 28px;
+    width: 140px;
+    border: none;
+    outline: none;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+input::placeholder{ color: var(--secondary-color); }
+
+.valor-detalhe{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--primary-color);
+}

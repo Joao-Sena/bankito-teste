@@ -1,0 +1,17 @@
+.full-width{ width: 100%; max-width: 600px; }
+.disabled{ opacity: 0.6; }
+.disabled:hover{ cursor: default; }
+
+.botao-primario{
+    background-color: var(--primary-color);
+    padding: 13px 22px;
+    border-radius: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--white-color);
+    border: none;
+    outline: none;
+}

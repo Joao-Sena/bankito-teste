@@ -1,0 +1,32 @@
+<!-- Aplicativo baseado nas telas que o Chrome fornece do Iphone 6/7/8 Plus, e adaptado para telas menores como do Iphone 5 -->
+
+<div class="container text-center">
+    <div class="botao-voltar" routerLink="/login">
+        <img src="../../../../assets/img/botao-voltar.png" width="20px" alt="">
+    </div>
+
+    <img src="../../../../assets/img/logo.png" class="logo" width="104px" alt="Logo do aplicativo de banco Bankito">
+
+    <form [formGroup]="loginForm">
+
+        <input class="input" type="text" formControlName="cpf" placeholder="CPF">
+        <app-field-error errorMessage="Cpf vazio ou inválido"
+        *ngIf="loginForm.controls.cpf.errors"></app-field-error>
+
+        <input class="input margin-top" formControlName="password" type="password" placeholder="SENHA">
+        <app-field-error errorMessage="Senha vazia ou inválida"
+        *ngIf="loginForm.controls.password.errors"></app-field-error>
+
+    </form>
+
+    <app-button tipoBotao="primario" textoBotao="ENTRAR" [fullWidth]="true"
+         [disabled]="!loginForm.valid" (click)="logIn()"></app-button>
+
+    <p class="nao-consigo-acessar">Não consigo acessar</p>
+
+    <div class="container-erro-login" *ngIf="messageErrorLogin">
+        <h3 class="titulo-erro">Ocorreu um erro ao fazer o Login</h3>
+        <p class="descricao-erro">{{messageErrorLogin}}</p>
+    </div>
+
+</div>

@@ -1,0 +1,30 @@
+<div class="container-light">
+    
+    <img src="../../../../assets/img/botao-voltar-dark.png" class="botao-voltar" routerLink="/home">
+    <div class="titulo">Nova transferência</div>
+
+    <div class="container-detalhes-transferencia">
+
+        <div>
+            <h4 class="titulo-detalhe">Valor</h4>
+            <input type="text" placeholder="R$ 00,00" [(ngModel)]="valorTransferencia">
+        </div>
+
+        <div>
+            <h4 class="titulo-detalhe">Conta</h4>
+            <input type="text" placeholder="xxx#xxx.xx" [(ngModel)]="account">
+        </div>
+
+        <div>
+            <h4 class="titulo-detalhe">Resumo</h4>
+            <p class="dados-detalhe">Larissa Rimbaldi Santos</p>
+            <p class="dados-detalhe">441.340.840-32</p>
+            <p class="valor-detalhe">R$: {{valorTransferencia}}</p>
+        </div>
+
+    </div>
+
+    <app-button tipoBotao="primario" textoBotao="TRANSFERIR" [fullWidth]="true"
+    routerLink="/home"></app-button>
+
+</div>
